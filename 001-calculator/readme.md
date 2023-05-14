@@ -15,16 +15,6 @@ This is a sample calculator application implemented using Jetpack Compose.
 
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-
 ## Getting Started
 
 To run the calculator application on your local machine, follow these steps:
