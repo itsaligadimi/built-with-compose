@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.agadimi.calculator'
-    compileSdk 33
+    compileSdk 32
 
     defaultConfig {
         applicationId "com.agadimi.calculator"
         minSdk 23
-        targetSdk 33
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -60,7 +60,4 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
-
-
-    implementation "com.google.accompanist:accompanist-systemuicontroller:0.28.0"
 }
